@@ -4285,7 +4285,7 @@ function renderMenu() {
   }
   
   // ═══════════════════════════════════════════════════════════════════════
-  // MAIN CHARACTER: LUCHADOR LIBRARIAN (Center Stage)
+  // MAIN CHARACTER: THE LUCHABRARIAN (Center Stage)
   // ═══════════════════════════════════════════════════════════════════════
   
   const charX = W * 0.5;
@@ -4428,7 +4428,7 @@ function renderMenu() {
   ctx.restore();
   
   // ═══════════════════════════════════════════════════════════════════════
-  // TITLE: "LIBRARY LUCHADOR"
+  // TITLE: "THE LUCHABRARIAN"
   // ═══════════════════════════════════════════════════════════════════════
   
   const titleAnim = menuItemAnimations[0] || { y: 0, alpha: 1 };
@@ -4440,16 +4440,16 @@ function renderMenu() {
   ctx.fillStyle = 'rgba(0, 0, 0, 0.6)';
   ctx.font = `bold ${Math.min(52, W * 0.065)}px "Press Start 2P"`;
   ctx.textAlign = 'center';
-  ctx.fillText('LIBRARY LUCHADOR', W/2 + 4, titleY + 4 + titleAnim.y);
+  ctx.fillText('THE LUCHABRARIAN', W/2 + 4, titleY + 4 + titleAnim.y);
   
   // Title outline (gold)
   ctx.strokeStyle = '#c8a84a';
   ctx.lineWidth = 8;
-  ctx.strokeText('LIBRARY LUCHADOR', W/2, titleY + titleAnim.y);
+  ctx.strokeText('THE LUCHABRARIAN', W/2, titleY + titleAnim.y);
   
   // Title fill (red)
   ctx.fillStyle = '#d62a2a';
-  ctx.fillText('LIBRARY LUCHADOR', W/2, titleY + titleAnim.y);
+  ctx.fillText('THE LUCHABRARIAN', W/2, titleY + titleAnim.y);
   
   // Title highlight (shine)
   ctx.fillStyle = '#ff8a8a';
@@ -11433,7 +11433,7 @@ function renderPlayer() {
   const baseY = py + breathe;
   
   // ═══════════════════════════════════════════════════════════════════════
-  // LUCHADOR LIBRARIAN - NINTENDO AAA+ CHARACTER DESIGN
+  // THE LUCHABRARIAN - NINTENDO AAA+ CHARACTER DESIGN
   // Professional wrestler meets sophisticated librarian aesthetic
   // ═══════════════════════════════════════════════════════════════════════
   const PLAYER_SCALE = 2.6;
