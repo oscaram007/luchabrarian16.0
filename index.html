@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-<title>The Luchabrarian v2.0 — Phase 1</title>
+<title>The Luchabrarian Version 16.0</title>
 <style>
   @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
   * { margin:0; padding:0; box-sizing:border-box; }
@@ -44,7 +44,7 @@
 <div id="wrap"><canvas id="c"></canvas></div>
 <script>
 // ═══════════════════════════════════════════════════════════════════════════
-// THE LUCHABRARIAN v2.0 — PHASE 1
+// THE LUCHABRARIAN
 // Power-ups, Difficulty Selection, Enhanced Visual Effects
 // ═══════════════════════════════════════════════════════════════════════════
 
@@ -4459,7 +4459,7 @@ function renderMenu() {
   highlightGrad.addColorStop(0, 'rgba(255, 255, 255, 0.8)');
   highlightGrad.addColorStop(1, 'rgba(255, 255, 255, 0)');
   ctx.fillStyle = highlightGrad;
-  ctx.fillText('LIBRARY LUCHADOR', W/2, titleY + titleAnim.y);
+  ctx.fillText('LUCHABRARIAN', W/2, titleY + titleAnim.y);
   
   ctx.globalAlpha = titleAnim.alpha * menuTransitionAlpha;
   
@@ -4468,8 +4468,8 @@ function renderMenu() {
   ctx.fillStyle = '#f0d870';
   ctx.strokeStyle = '#000000';
   ctx.lineWidth = 4;
-  ctx.strokeText('Champion of the Dewey Decimal!', W/2, titleY + Math.min(50, H * 0.06) + titleAnim.y);
-  ctx.fillText('Champion of the Dewey Decimal!', W/2, titleY + Math.min(50, H * 0.06) + titleAnim.y);
+  ctx.strokeText('Campeón of the Libros!', W/2, titleY + Math.min(50, H * 0.06) + titleAnim.y);
+  ctx.fillText('Campeón of the Libros!', W/2, titleY + Math.min(50, H * 0.06) + titleAnim.y);
   
   ctx.globalAlpha = 1;
   
